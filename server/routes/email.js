@@ -24,7 +24,7 @@ const transporter = nodemailer.createTransport({
   
   const mailOptions = {
     from: 'colindavid.nelson@gmail.com',
-    to: 'colindavid.nelson@gmail.com',
+    to: 'turbotiler@msn.com',
     subject: "Website Request: " + req.body.name + " - " + req.body.phone,
     text: req.body.message + "\n ---------------- \n" + req.body.email + "\n" + newDate
   };
